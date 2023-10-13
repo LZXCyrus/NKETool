@@ -28,7 +28,7 @@ Visit https://github.com/Cyberbolt/Cemotion/releases/download/2.0/cemotion_2.0.p
 ```python
 >>> self.model = load_model(model, 'cemotion_2.0.pt')
 ```
-#### Easy start
+#### 3.Easy start
 *Note that it may take a few minutes to download checkpoint at the first time (approximately 5GB)*.
 
 One example is as follows:
