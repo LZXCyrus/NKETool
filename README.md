@@ -8,12 +8,12 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --e
  <br/>
 *If the download goes wrong due to the Internet speed:*
  <br/>
-Visit https://download.pytorch.org/whl/torch_stable.html and download WHL files to install.
+*Visit https://download.pytorch.org/whl/torch_stable.html and download WHL files to install.*
  <br/>
 pip install OmniEvent
 *If deepspeed installation failed:*
  <br/>
-Visit https://www.piwheels.org/project/deepspeed/ and download deepspeed-0.7.2-py3-none-any.whl to install.
+*Visit https://www.piwheels.org/project/deepspeed/ and download deepspeed-0.7.2-py3-none-any.whl to install.*
 
 
 ## How to use News Knowledge Extraction Tool
@@ -22,7 +22,6 @@ Change the above code to your path in cemotion.py.
 ```python
 >>> tokenizer = BertTokenizer.from_pretrained('./bert-base-chinese')
 ```
-<br/>
 #### 2. Download pre-trained model **cemotion_2.0.pt**
 Visit https://github.com/Cyberbolt/Cemotion/releases/download/2.0/cemotion_2.0.pt and download the model. Then change the above code to your path in cemotion.py.
 ```python
