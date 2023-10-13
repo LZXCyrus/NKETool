@@ -35,11 +35,11 @@ One example is as follows:
 ```python
 >>> from NKETool import nke_tool
 
->>> text = "今日沪深两市平开后一路下挫，三大股指均未能形成有效的反弹。格力十一年来首次不分红，开盘逼近跌停。"
+>>> text = "今日沪深两市平开后一路下挫，三大股指均未能形成有效反弹。格力十一年来首次不分红，开盘逼近跌停。"
 >>> print(nke_tool(text))
 [
 	{
-		'text': '今日沪深两市平开后一路下挫，三大股指均未能形成有效的反弹。', 
+		'text': '今日沪深两市平开后一路下挫，三大股指均未能形成有效反弹。', 
 		'events': [{'type': '下跌', 'trigger': '下挫', 'offset': [11, 13]}], 'arguments': [
             {   "mention": "今日", "offset": [1, 3], "role": "时间"},
             {   "mention": "沪深两市", "offset": [2, 6], "role": "名称"}],
