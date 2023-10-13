@@ -11,6 +11,7 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --e
 *Visit https://download.pytorch.org/whl/torch_stable.html and download WHL files to install.*
  <br/>
 pip install OmniEvent
+ <br/>
 *If deepspeed installation failed:*
  <br/>
 *Visit https://www.piwheels.org/project/deepspeed/ and download deepspeed-0.7.2-py3-none-any.whl to install.*
