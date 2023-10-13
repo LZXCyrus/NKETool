@@ -5,6 +5,7 @@
 #### 1. Install python3.9. 
 #### 2. Install the requirements:
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+ <br/>
 -If the download goes wrong due to the Internet speed:
 Visit https://download.pytorch.org/whl/torch_stable.html and download WHL files to install.
  <br/>
