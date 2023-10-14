@@ -49,8 +49,8 @@ One example is as follows:
 	{
 		'text': '格力十一年来首次不分红，开盘逼近跌停。', 
 		'events': [{'type': '跌停', 'trigger': '跌停', 'offset': [16, 18]}], 'arguments': [
-            {   "mention": "格力", "offset": [1, 3], "role": "公司名称"
-				"mention": "十一年", "offset": [2, 5], "role": "时间"}],
+            {   "mention": "格力", "offset": [1, 3], "role": "公司名称"},
+            {   "mention": "十一年", "offset": [2, 5], "role": "时间"}],
 		'sentiment_label': 0.001994,
 		'sentiment': 'negative'
 	}
