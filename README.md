@@ -23,11 +23,7 @@ Visit https://www.piwheels.org/project/deepspeed/ and download deepspeed-0.7.2-p
 
 - If sentencepiece versions have conflicting dependences:
 
-Before install OmniEvent, firstly:
-
-```
-pip install sentencepiece==0.1.97
-```
+Before install OmniEvent, firstly:`pip install sentencepiece==0.1.97`
 
 
 ## How to use News Knowledge Extraction Tool
