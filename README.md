@@ -18,7 +18,7 @@ pip install OmniEvent
 ```
 
 - If deepspeed installation failed:
-- 
+
 Visit https://www.piwheels.org/project/deepspeed/ and download deepspeed-0.7.2-py3-none-any.whl to install.
 
 - If sentencepiece versions have conflicting dependences:
