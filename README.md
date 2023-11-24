@@ -46,20 +46,52 @@ One example is as follows:
 
 >>> text = "今日沪深两市平开后一路下挫，三大股指均未能形成有效反弹。格力十一年来首次不分红，开盘逼近跌停。"
 >>> print(nke_tool(text))
+
 [
 	{
-		'text': '今日沪深两市平开后一路下挫，三大股指均未能形成有效反弹。', 
-		'events': [{'type': '下跌', 'trigger': '下挫', 'offset': [11, 13]}], 'arguments': [
-            {   "mention": "今日", "offset": [1, 3], "role": "时间"},
-            {   "mention": "沪深两市", "offset": [2, 6], "role": "名称"}],
-		'sentiment_label': 0.456995,
+		'text': '今日沪深两市平开后一路下挫，三大股指均未能形成有效反弹。',
+		'events':
+			[
+				{
+					'type': '下跌',
+					'offset': [11, 13],
+					'trigger': '下挫',
+					'arguments':
+						[
+							{
+								'mention': '今日',
+								'offset': [0, 2],
+								'role': '时间'
+							},
+							{
+								'mention': '沪深两市',
+								'offset': [2, 6],
+								'role': '跌停股票'
+							}
+						]
+				}
+			],
+		'sentiment_label': 0.456994,
 		'sentiment': 'negative'
 	},
 	{
-		'text': '格力十一年来首次不分红，开盘逼近跌停。', 
-		'events': [{'type': '跌停', 'trigger': '跌停', 'offset': [16, 18]}], 'arguments': [
-            {   "mention": "格力", "offset": [1, 3], "role": "公司名称"},
-            {   "mention": "十一年", "offset": [2, 5], "role": "时间"}],
+		'text': '格力十一年来首次不分红，开盘逼近跌停。',
+		'events':
+			[
+				{
+					'type': '跌停',
+					'offset': [16, 18],
+					'trigger': '跌停',
+					'arguments':
+						[
+							{
+								'mention': '格力',
+								'offset': [0, 2],
+								'role': '股份股权转让-target-company'
+							}
+						]
+				}
+			],
 		'sentiment_label': 0.001994,
 		'sentiment': 'negative'
 	}
