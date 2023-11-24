@@ -42,7 +42,7 @@ Visit https://github.com/Cyberbolt/Cemotion/releases/download/2.0/cemotion_2.0.p
 
 One example is as follows:
 ```python
->>> from NKETool.NKETool import nke_tool
+>>> from NKETool import nke_tool
 
 >>> text = "今日沪深两市平开后一路下挫，三大股指均未能形成有效反弹。格力十一年来首次不分红，开盘逼近跌停。"
 >>> print(nke_tool(text))
