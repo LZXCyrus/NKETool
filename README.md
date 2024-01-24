@@ -26,7 +26,7 @@ Visit https://www.piwheels.org/project/deepspeed/ and download deepspeed-0.7.2-p
 Before install OmniEvent, firstly:`pip install sentencepiece==0.1.97`
 
 
-## How to use News Knowledge Extraction Tool
+## How to use NKETool
 #### 1. Download bert-base-chinese
 Change the above code to your path in cemotion.py.
 ```python
@@ -98,4 +98,4 @@ One example is as follows:
 ]
 ```
 
-- News Knowledge Extraction Tool is a off-the-shelf tool. If you want to train your Own Model with OmniEvent: https://github.com/THU-KEG/OmniEvent/tree/main
+- News Knowledge Extraction Tool is a off-the-shelf tool. If you want to train your Own Model with OmniEvent, you can follow: https://github.com/THU-KEG/OmniEvent/tree/main
