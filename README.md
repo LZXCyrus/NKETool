@@ -49,7 +49,14 @@ One example is as follows:
 >>> from NKETool import nke_tool
 
 >>> text = "今日沪深两市平开后一路下挫，三大股指均未能形成有效反弹。格力十一年来首次不分红，开盘逼近跌停。"
->>> print(nke_tool(text))
+
+>>> model1_name_or_path = "s2s-mt5-ed"
+
+>>> model2_name_or_path = "s2s-mt5-eae"
+
+>>> device = "cuda"
+
+>>> print(nke_tool(text, model1_name_or_path, model2_name_or_path, device))
 
 [
 	{
