@@ -2,6 +2,7 @@
 
 ## 📝 Updates
 ✅`2024-01-29` NKETool v.1.0 is released.
+
 ✅`2024-03-12` NKETool v.1.1 is released. Multiple detail improvements and performance optimisations.
 
 ## ⚙️ Environment
@@ -102,3 +103,9 @@ One example is as follows:
 ```
 
 - News Knowledge Extraction Tool is a off-the-shelf tool. If you want to train your Own Model with OmniEvent, you can follow: https://github.com/THU-KEG/OmniEvent/tree/main
+
+## 🪴 Acknowledgement
+This project is based on the following open source projects, hereby expresses the sincere thanks to the relevant projects and their developers:
+
+- **OmniEvent**: https://github.com/THU-KEG/OmniEvent
+- **Cemotion**: https://github.com/Cyberbolt/Cemotion
