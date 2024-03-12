@@ -1,4 +1,4 @@
-from inference import infer
+from OmniEvent.infer import infer
 import re
 import json
 import os
