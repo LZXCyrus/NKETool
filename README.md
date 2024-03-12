@@ -6,8 +6,8 @@
 ✅`2024-03-12` NKETool v.1.1 is released: Multiple detail improvements and performance optimisations.
 
 ## ⚙️ Environment
-#### 1. Install python3.9. 
-#### 2. Install the requirements:
+### 1. Install python3.9. 
+### 2. Install the requirements:
 ```
 pip install requirements.txt -r
 ```
@@ -36,17 +36,17 @@ Before install OmniEvent, firstly:`pip install sentencepiece==0.1.97`
 
 
 ## 🛠️ How to use NKETool
-#### 1. Download bert-base-chinese
+### 1. Download bert-base-chinese
 Change the above code to your path in cemotion.py.
 ```python
 >>> tokenizer = BertTokenizer.from_pretrained('./bert-base-chinese')
 ```
-#### 2. Download pre-trained model **cemotion_2.0.pt**
+### 2. Download pre-trained model **cemotion_2.0.pt**
 Visit https://github.com/Cyberbolt/Cemotion/releases/download/2.0/cemotion_2.0.pt and download the model. Then change the above code to your path in cemotion.py.
 ```python
 >>> self.model = load_model(model, 'cemotion_2.0.pt')
 ```
-#### 3. Easy start
+### 3. Easy start
 *Note that it may take a few minutes to download checkpoint at the first time (approximately 5GB)*.
 
 One example is as follows:
