@@ -12,6 +12,8 @@
 pip install requirements.txt -r
 ```
 
+</br>
+
 **If you have problems configuring your environment using the above method, follow these steps:**
 
 ```
