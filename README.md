@@ -1,7 +1,10 @@
 # News Knowledge Extraction Tool
 
+## 📝 Updates
+✅`2024-01-29` NKETool v.1.0 is released.
+✅`2024-03-12` NKETool v.1.1 is released. Multiple detail improvements and performance optimisations.
 
-## Environment
+## ⚙️ Environment
 #### 1. Install python3.9. 
 #### 2. Install the requirements:
 
@@ -26,7 +29,7 @@ Visit https://www.piwheels.org/project/deepspeed/ and download deepspeed-0.7.2-p
 Before install OmniEvent, firstly:`pip install sentencepiece==0.1.97`
 
 
-## How to use NKETool
+## 🛠️ How to use NKETool
 #### 1. Download bert-base-chinese
 Change the above code to your path in cemotion.py.
 ```python
