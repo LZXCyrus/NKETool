@@ -1,9 +1,9 @@
 # News Knowledge Extraction Tool
 
 ## 📝 Updates
-✅`2023-10-21` NKETool v.1.0 is released.
+✅`2023-10-21` NKETool is released.
 
-✅`2024-03-12` NKETool v.1.1 is released: Multiple detail improvements and performance optimisations.
+✅`2024-03-12` Multiple detail improvements and performance optimisations.
 
 ## ⚙️ Environment
 #### 1. Install python3.9. 
